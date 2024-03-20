@@ -40,4 +40,10 @@ public class Clavier {
 		return chiffre;
 	}
 
+	public static String entrerString(String question) {
+		System.out.println(question);
+		String str = scan.next();
+		return str;
+	}
+	
 }
